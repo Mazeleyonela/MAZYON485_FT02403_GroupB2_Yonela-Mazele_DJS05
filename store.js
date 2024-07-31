@@ -1,3 +1,8 @@
+import { createStore } from 'redux';
+import tallyReducer from './reducers';
+
+const store = createStore(tallyReducer);
+
 function createStore(reducer) {
     let state;
     let listeners = [];

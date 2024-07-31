@@ -14,3 +14,5 @@ function tallyReducer(state = initialState, action) {
             return state;
     }
 }
+// Export the reducer to be used in the store
+export default tallyReducer;
